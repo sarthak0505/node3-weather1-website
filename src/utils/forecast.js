@@ -14,6 +14,6 @@ const forecast =(latitude,longitude,callback)=>{
            callback(undefined,'It is currently '+ response.body.currently.temperature + ' fahrenheit. There is a '+ response.body.currently.precipProbability + '% chance of rain');
        }
     })
-}
+} 
 
 module.exports = forecast
